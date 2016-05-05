@@ -28,11 +28,10 @@
 		%link{:rel => "stylesheet", :href => "style.css"}/
 		%meta( name="viewport" content="width=device-width, initial-scale=1.0")
 		%script(type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js")
-		%script(type="text/javascript" src='https://code.jquery.com/jquery-2.1.1.min.js' )
 		%script(type="text/javascript" src="js/materialize.min.js")
-		
 		%script(type="text/javascript" src="js/masonry.pkgd.min.js")
 		%link{:href => "https://fonts.googleapis.com/css?family=Dosis:400,200", :rel => "stylesheet", :type => "text/css"}/
+		%link(href='https://fonts.googleapis.com/css?family=Teko:300,400' rel='stylesheet' type='text/css')
 
 	%body	
 		.fullwrap		
@@ -44,23 +43,23 @@
 						.nav-wrapper
 							%h1.brand-logo
 								%a{:href => "index.html"} CHIONER
-							%ul#nav-mobile.right.hide-on-med-and-down(itemscope itemtype="http://schema.org/BreadcrumbList")
-								%li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+							%ul#nav-mobile.right.hide-on-med-and-down(itemscope )
+								%li(itemprop="itemListElement" itemscope )
 									%a.navpanel(itemprop="item" href ="index.html")
 										%span(itemprop="name")
 											Portfolio
 									%meta(itemprop="position" content="1")		
-								%li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+								%li(itemprop="itemListElement" itemscope )
 									%a.navpanel(itemprop="item" href ="about.html")
 										%span(itemprop="name")
 											About
 									%meta(itemprop="position" content="2")	
-								%li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+								%li(itemprop="itemListElement" itemscope )
 									%a.navpanel(itemprop="item" href = "contact.html")
 										%span(itemprop="name")
 											Contact	
 									%meta(itemprop="position" content="3")			
-						%ul#slide-out.side-nav(itemscope itemtype="http://schema.org/BreadcrumbList")
+						%ul#slide-out.side-nav(itemscope )
 							%li
 								%a{:href => "index.html"}Portfolio
 							%li

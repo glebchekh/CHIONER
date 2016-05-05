@@ -1,5 +1,5 @@
 html body {
-  font-family: GillSans, Calibri, "AA-BebasNeue", "Dosis", "a_FuturaOrtoLt_Light", sans-serif;
+  font-family: GillSans, Calibri, Teko, "Dosis", sans-serif;
   box-sizing: border-box;
   height: 100%; }
 
@@ -13,10 +13,10 @@ nav {
     background-color: rgba(0, 0, 0, 0.2); }
 
 nav .brand-logo {
-  font-family: "AA-BebasNeue", sans-serif;
+  font-family: "Teko", sans-serif;
   padding-left: 15px;
-  font-size: 70px;
-  line-height: 30%; }
+  font-size: 80px;
+  line-height: 50%; }
 
 .navpanel {
   font-family: "Dosis";
@@ -148,12 +148,6 @@ nav .brand-logo {
 .wrap h2, .wrap p {
   font-family: "Dosis"; }
 
-@font-face {
-  font-family: AA-BebasNeue;
-  src: local("AA-BebasNeue"), url(font/AA-BebasNeue.ttf); }
-@font-face {
-  font-family: a_FuturaOrtoLt_Light;
-  src: local("a_FuturaOrtoLt_Light"), url(font/a_FuturaOrtoLt_Light.ttf); }
 @media screen and (max-width: 769px) {
   .parallax-container {
     height: 65vh; }
@@ -161,8 +155,7 @@ nav .brand-logo {
       width: 190%; }
 
   .grid-item {
-    width: 50%;
-    float: left; }
+    width: 50%; }
 
   .item-hover {
     position: absolute;
